@@ -1,0 +1,6 @@
+This project contains Python scripts to help with mass changes to S3 buckets.
+Individually the scripts will allow you to download a copy of a bucket to a
+local folder, upload a local folder (recursively) to an bucket, or delete every
+file in a bucket.  Combining these scripts can allow you to clone one bucket to
+another, even across S3 accounts.  There are faster ways to do that if you want
+to clone a bucket within the same account.
